@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    background-color: #fff0f5;
+    background-image: radial-gradient(#ffc0cb 0.5px, transparent 0.5px); 
+    background-size: 20px 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #ff69b4 !important;
+    text-shadow: 2px 2px 0px #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ol {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 3px dashed #ffb6c1;
+    list-style-type: none; 
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    box-shadow: 8px 8px 0px #ffdae0;
+}
+
+img {
+    border: 5px solid #ffb6c1 !important;
+    border-radius: 20px;
+    background-color: white;
+}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, transparent, #ffb6c1, transparent);
+    margin: 40px 0;
+}
+
+.swiper {
+    border: 8px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(255, 105, 180, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    background: #ff69b4 !important;
+}
+
+.carrusel-videos {
+    background: #ffe4e1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff0f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffb6c1;
+    border-radius: 10px;
+    border: 3px solid #fff0f5;
+}
